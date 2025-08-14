@@ -1,3 +1,6 @@
+Dataset dapat diunduh di Google Drive:
+https://drive.google.com/drive/folders/1d6uwnOSpVl2K2Q-csjQ6MBFf7HgKBjK9?usp=sharing
+
 # Segmentasi Pelanggan dengan Analisis RFM dan K-Means Clustering
 Proyek ini menerapkan analisis RFM (Recency, Frequency, Monetary) dan algoritma K-Means Clustering untuk segmentasi pelanggan berdasarkan perilaku belanja. Hasil analisis membantu mengidentifikasi kelompok pelanggan seperti loyal, potensial, dan berisiko, sehingga strategi pemasaran dapat lebih tepat sasaran.
 
