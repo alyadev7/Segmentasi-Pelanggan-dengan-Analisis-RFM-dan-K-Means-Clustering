@@ -4,17 +4,17 @@ https://drive.google.com/drive/folders/1d6uwnOSpVl2K2Q-csjQ6MBFf7HgKBjK9?usp=sha
 # Segmentasi Pelanggan dengan Analisis RFM dan K-Means Clustering
 Proyek ini menerapkan analisis RFM (Recency, Frequency, Monetary) dan algoritma K-Means Clustering untuk segmentasi pelanggan berdasarkan perilaku belanja. Hasil analisis membantu mengidentifikasi kelompok pelanggan seperti loyal, potensial, dan berisiko, sehingga strategi pemasaran dapat lebih tepat sasaran.
 
-## **1. Tujuan
+# 1. Tujuan
 Penelitian ini bertujuan untuk **melakukan segmentasi pelanggan** berdasarkan perilaku belanja dengan pendekatan **RFM (Recency, Frequency, Monetary)**.
 Tujuan spesifiknya adalah:
 1. Mengelompokkan pelanggan menjadi beberapa segmen berdasarkan kedekatan transaksi terakhir (*recency*), frekuensi pembelian (*frequency*), dan total nilai transaksi (*monetary*).
 2. Menyediakan dasar pengambilan keputusan bagi perusahaan untuk strategi pemasaran yang tepat sasaran.
 3. Meningkatkan retensi pelanggan, loyalitas, dan nilai penjualan.
 
-## **2. Algoritma yang Digunakan
+# 2. Algoritma yang Digunakan
 Algoritma yang digunakan adalah **K-Means Clustering** — salah satu metode *unsupervised learning* untuk mengelompokkan data berdasarkan kemiripan karakteristik.
 
-## **3. Alasan Pemilihan Algoritma
+# 3. Alasan Pemilihan Algoritma
 1. **Sesuai untuk Data Tanpa Label**
    Dataset pelanggan tidak memiliki kategori/kelas yang jelas. K-Means dapat menemukan pola dan membentuk kelompok secara otomatis tanpa memerlukan label sebelumnya.
 2. **Efisien dan Cepat**
@@ -24,12 +24,12 @@ Algoritma yang digunakan adalah **K-Means Clustering** — salah satu metode *un
 4. **Sangat Cocok untuk Data RFM**
    Data RFM setelah dinormalisasi berbentuk numerik dan berbasis jarak, sehingga algoritma K-Means yang menggunakan perhitungan Euclidean Distance dapat bekerja optimal.
 
-## **4. Penjelasan RFM
+# 4. Penjelasan RFM
 * **Recency (R)**: Jarak waktu sejak pembelian terakhir pelanggan. Semakin kecil nilainya, semakin baru interaksi pelanggan.
 * **Frequency (F)**: Jumlah pembelian yang dilakukan pelanggan. Semakin tinggi nilainya, semakin sering pelanggan bertransaksi.
 * **Monetary (M)**: Total uang yang dibelanjakan pelanggan. Semakin besar nilainya, semakin bernilai pelanggan bagi perusahaan.
 
-## **5. Interpretasi Hasil
+# 5. Interpretasi Hasil
 Contoh hasil segmentasi dengan **4 cluster**:
 * **Cluster 0**: Pelanggan baru dengan frekuensi pembelian rendah dan nilai transaksi kecil.
 * **Cluster 1**: Pelanggan lama yang jarang bertransaksi namun pernah berbelanja dengan nilai besar.
